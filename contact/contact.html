@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Portfolio">
+	<meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, coding">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--Form &#160;--> 
+	<title>Contact | Yasser kadiri</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style-contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+
+<div class="navv">
+<p><a >Contact <span class="decore-clr">Me</span></a></p>
+<div class="n1">
+<a href="https://yasserk142.github.io/portfolio">Home</a>
+<a href="https://yasserk142.github.io/portfolio/#about">About me</a>
+</div>
+<div class="social-media">
+<a href="https://www.facebook.com/profile.php?id=100090068644525" target="_blank">
+	<i class="fab fa-facebook-f"></i></a>
+<a href="https://www.instagram.com/yasserk142/" target="_blank">
+	<i class="fab fa-instagram"></i></a>			
+</div>
+</div>
+
+<div class="core">
+	<div class="forme">
+	<!-- <form method="post" class="forme"> -->
+
+		<div class="plis"><p class="pid">Submit your Informations, <br>I Will reply to you at your email-adress.
+	    </p></div>
+	    
+	    <!-- <input type="hidden" name="_next" value="https://yasserk142.github.io/portfolio/contact/thanks.html"> -->
+		
+		<input type="hidden" name="_subject" value="New Portfolio Contact!">
+		<input type="text" name="name" placeholder="FULL NAME"  required>
+		<input type="EMAIL" name="email" placeholder="EMAIL" required> 
+		<select name="Service" required>
+				<option disabled selected>-- Choose the Service -- </option>
+				<option> Web-site </option>
+				<option> Desktop-Application </option>
+				<option> Report </option>
+			</select>
+			<textarea name="details" placeholder="DETAILS"></textarea>
+
+
+		<div class="lisb">
+			<button class="sendbtn" id="sendbtn">Send Message</button> 
+		</div>
+		<center><hr></center>
+
+		<!-- </form> -->
+	</div>
+	
+	<div class="right-sec">
+		<span class="rh1"><h2>Info&#160;<i class="fa-solid fa-circle-exclamation "></i></h2></span>
+		<span class="rh2"><h2>GET IN TOUCH </h2></span>
+		<h3>Hey ! We are looking forward to start a project with you!</h3>
+		<p> We Can Work together by defining the conditions and specifics of the project.</p>
+		<br>
+			<ol>
+			<li>Enter your name and email-adress</li>
+			<li>Choose the service and submit the message</li>
+			<li>I will reply to you in your email-adress <span class="p-soon-p">as soon as possible</span></li>
+		</ol>
+		<span class="thanks"><p>Thank you. </p></span>
+		<span class="copy-r"><p> CopyRight 2023 | All rights reserved.</p></span>
+	</div>
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+	let sendbtn=document.getElementById("sendbtn");
+	sendbtn.addEventListener("click",f1);
+	function f1(){
+		alert("This feature will come soon ... ");
+	}
+
+</script>
+</html>
