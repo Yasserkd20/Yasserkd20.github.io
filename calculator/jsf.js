@@ -13,7 +13,6 @@ window.onload=function(){
     var tab=document.getElementsByName("btn");
     for(var i=0;i<16;i++){
         tab[i].addEventListener("click",function() { display.value+=this.value;});
-        //tab[i].onclick=function(){ display.value+=this.value;};
     }
     //
     const equal=document.getElementById("equal");
